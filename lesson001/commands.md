@@ -73,6 +73,8 @@ docker images
 docker image ls -f dangling=true
 ##删除虚悬
 docker image prune
+##这个地方是按照镜像的名字来过滤现在的容器列表
+docker container ls -qaf ancestor=myip:v1
 ```
 
 ##### 1.6 docker展示镜像列表
