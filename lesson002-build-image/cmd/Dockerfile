@@ -1,0 +1,3 @@
+ENV JDK_VERSION=1.8
+FROM debian
+CMD echo $JDK_VERSION
